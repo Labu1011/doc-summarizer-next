@@ -1,3 +1,9 @@
 export default function Home() {
-  return <main>Welcome to the app</main>
+  return (
+    <main>
+      <a href="/api/auth/login">
+        <button>Login</button>
+      </a>
+    </main>
+  )
 }
